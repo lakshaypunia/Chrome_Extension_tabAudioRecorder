@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Audio Recorder 2.0",
+  "version": "1.4",
+  "description": "Record audio from a Chrome tab and send to an API.",
+  "permissions": [
+    "tabCapture",
+    "offscreen",
+    "downloads",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "<all_urls>",
+    "http://localhost:3000/*"
+  ]
+}
