@@ -45,6 +45,7 @@ First, clone the project from GitHub to your local machine.
 ```bash
 git clone https://github.com/lakshaypunia/Chrome_Extension_tabAudioRecorder.git
 cd Chrome_Extension_tabAudioRecorder
+```
 ### Step 2: Install Dependencies
 
 You'll need to install dependencies for both the extension frontend and the backend server.
